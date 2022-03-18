@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #FF0000;
+    font-size: 33px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 72px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.45s ease-in-out;
+}
+
+ul li a:hover{
+    color: #FF0000;
+}
+
+.search{
+    width: 330px;
+    float: right;
+    margin-right: 27px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #FF0000;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #FF0000;
+    border: #FF0000;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #FF0000;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: bisque;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(b3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 30px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #FF0000;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #FF0000;
+    position: absolute;
+    top: 300px;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+    background: #fff;
+    color: #FF0000;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+form .parn{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.form p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.container{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(7.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.header{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon1{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo1{
+    color: #c65353;
+    font-size: 33px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu1{
+    width: 400px;
+    float: right;
+    height: 70;
+}
+
+ul1{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul1 li{
+    list-style: none;
+    margin-right: 72px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul1 li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.45s ease-in-out;
+}
+
+ul1 li a:hover{
+    color: #c65353;
+}
+
+.contain{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(b1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.cont{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(b2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.store{
+    width: 1380px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.store .box{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background:#fff;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    
+}
+
+.cont .cn{
+    width: 160px;
+    height: 40px;
+    background: #FF0000;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 1250px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.cont .cn a{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: bisque;
+}
+
+.store .box .imgbox{
+    position: relative;
+    overflow:hidden;
+}
+
+.store .box .imgbox img{
+    max-width: 100%;
+    transition: transform 2s;
+}
+
+.store .box:hover .imgbox img{
+    transform: scale(1.2);
+}
+
+.store .box .details{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+.store .box .details .news{
+    position: absolute;
+    top: 15%;
+    transform: translateY(-50);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+.store .box:hover .details{
+    transform: scaleY(1);
+}
+
+.store .box .details .news h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #FF0000;
+}
+
+.store .box .details .news p{
+    margin: 10px 0 0;
+    padding: 0;
+}
